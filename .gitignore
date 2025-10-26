@@ -1,0 +1,46 @@
+.kiro_command_output.txt
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# AWS credentials
+.aws/credentials
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+
+# Frontend config
+infrastructure/frontend/config.js
+
+# Build artifacts
+.next/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# CDK
+cdk.out/
+.cdk.staging/
+
+# OS
+.DS_Store
+Thumbs.db
